@@ -1,8 +1,8 @@
 class Quickbot < Formula
   desc "QuickBot - your macOS command-line assistant"
   homepage "https://github.com/levinismynameirl/Quick-Bot"
-  url "https://github.com/levinismynameirl/Quick-Bot/archive/refs/tags/v0.1.0d.tar.gz"
-  # TODO: Update sha256 after publishing the v0.1.0d release
+  url "https://github.com/levinismynameirl/Quick-Bot/archive/refs/tags/v0.1.0.dev0.tar.gz"
+  # TODO: Update sha256 after publishing the v0.1.0.dev0 release
   sha256 "893f13f31767bd80de21f93d8c10ae6657d582ec295589fa4662e928d6c89938"
   license "GPL-3.0"
 
@@ -20,7 +20,7 @@ class Quickbot < Formula
 
   def caveats
     <<~EOS
-      ⚠  QuickBot v0.1.0d — Development Beta
+      ⚠  QuickBot v0.1.0.dev0 — Development Beta
 
       This is the first public release of QuickBot and is a development
       build. Features may be incomplete, config file formats may change
